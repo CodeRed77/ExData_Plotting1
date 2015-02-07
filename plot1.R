@@ -1,5 +1,4 @@
-setwd("C:/Users/Renkoh/Desktop/Coursera/4_Exploratory_Data_Analysis/Proj_1")
-
+ 
 
 ##Download Data
 par(mfcol=c(1,1))
