@@ -1,7 +1,7 @@
  
 
 ##Download Data
-par(mfcol=c(1,1))
+
 
 Filename<-"./household_power_consumption.txt"
 
