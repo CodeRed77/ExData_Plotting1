@@ -29,6 +29,7 @@ data2$Datetime <- as.POSIXct(datetime)
 
 
 ######Q4
+png(filename = "./plot4.png", width = 480, height = 480, units = "px")
 
 par(mfcol=c(2,2),mar=c(4,4,2,1), oma=c(0,0,2,0))
 with(data2, {
@@ -49,5 +50,4 @@ with(data2, {
   
 })
 
-dev.copy(png, file="plot4.png", height=480, width=480)
 dev.off()
